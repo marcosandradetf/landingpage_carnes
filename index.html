@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Delícias da Carne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"
+        defer></script>
+    <script src="script.js" defer></script>
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-light navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Frame2.svg" width="80" alt="logo da empresa"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" style="align-items: center; font-family: 'Open Sans', sans-serif;">
+                        <a class="nav-link text-white" aria-current="page" href="#sobre">Sobre</a>
+                        <a class="nav-link text-white" href="#portifolio">Produtos</a>
+                        <a class="nav-link text-white" href="#faleconosco">Fale conosco</a>
+                        <a class="nav-link text-white" href="#localizacao">Localização</a>
+                        <a class="nav-link text-white" href="#contato">Contato</a>
+                        <a class="nav-link text-white" href="http://www.instagram.com/" target="_blank"> <img src="insta.png" alt="logo do instagram" width="25px"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <main class="main">
+
+        <section class="container-inicio">
+
+            <div class="titulos_iniciais">
+                <h1 class="digitar-efeito">Delícias da Carne</h1>
+                <h2 class="digitar-efeito" style="animation-delay: 1.5s;"> > Cortes para churrasco</h2>
+                <h2 class="digitar-efeito" style="animation-delay: 3s;"> > Cortes uruguaios e argentinos</h2>
+                <h2 class="digitar-efeito" style="animation-delay: 5s;"> > Encomendas de ostras vivas</h2>
+                <h2 class="digitar-efeito" style="animation-delay: 7s;"> > Cortes exóticos</h2>
+                <h2 class="digitar-efeito" style="animation-delay: 9s;"> > Delícias do mar</h2>
+                <h2 class="digitar-efeito" id="se" style="animation-delay: 11s;"> > O melhor restaurante é a nossa casa</h2>
+            </div>
+
+            <div class="scroll-downs">
+                <div class="mousey">
+                    <div class="scroller"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container-apresentacao" id="sobre">
+
+            <div class="sobre">
+                <h2>Delícias da Carne!</h2>
+                <p><strong>Fundado em 1983</strong>, nossa empresa está há <strong>quarenta anos comercializando
+                        produtos de qualidade</strong>. Nós acreditamos que comer é uma das grandes maravilhas da vida.
+                    Então nós viajamos para descobrir novos sabores e temos muito orgulho em oferecer o melhor da carne,
+                    desde churrasco com cortes uruguaios e argentino a carnes exóticas. Delícias do mar como vieiras
+                    importadadas, tentáculos, filé de peixes e haddock. Aqui na delícias da carne temos o nosso lema:
+                    Nós comemos, nós bebemos, nós cozinhamos, nós conversamos sobre novos sabores. <br><strong>O melhor
+                        restaurante é a nossa casa</strong>.
+                </p>
+            </div>
+
+            <div>
+                <img class="sobre_acougue" src="acougueiro.jpg" alt="foto de um açougue">
+            </div>
+
+        </section>
+
+        <section class="container-portifolio" id="portifolio">
+
+            <h2>Cortes para churrasco</h2>
+            <div id="carouselExampleControls" class="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://www.sociedadedacarne.com.br/blog/wp-content/uploads/2019/02/shutterstock_750439309-800x445.jpg"
+                                    class="d-block w-100" alt="Picanhas argentinas e uruguaias">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Picanhas argentinas e uruguaias</h5>
+                                <p class="card-text">É uma carne muito famosa capa de gordura é responsável por garantir um sabor forte e acentuado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="lomo.jpg" class="d-block w-100" alt="Lomo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Lomo</h5>
+                                <p class="card-text">O lomo saltado, prato à base de carne, é um dos mais apreciados e reúne a principal característica da culinária da região peruana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="bifechorizo.jpg" class="d-block w-100" alt="Bife de Chorizo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Bife de Chorizo</h5>
+                                <p class="card-text">O Bife de Chorizo é o corte nobre que consagrou a Argentina. Retirado do miolo do contrafilé, é uma carne macia e de sabor marcante.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="tapacuadril.jpg" class="d-block w-100" alt="Tapa de cuadril">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title ">Tapa de cuadril</h5>
+                                <p class="card-text ">Ela nada mais é do que a Picanha da terra do tango.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="bifeancho.jpg" class="d-block w-100" alt="Bife ancho">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title ">Bife ancho</h5>
+                                <p class="card-text ">A principal característica é a gordura. Ele possui uma faixa de gordura interna que separa o miolo e a capa do ancho e reflete no sabor suculento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!------------- CARD 2------------------>
+
+            <h2>Delícias do Mar</h2>
+            <div id="carouselExampleControls2" class="carousel">
+
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://img.freepik.com/fotos-gratis/close-up-de-fresco-moluscos-em-mercado_23-2148263842.jpg?w=1480&t=st=1679942883~exp=1679943483~hmac=a675d3e546b9ed41195cdb9f6d9f6f2d28274a303b2a6f9a26de990483566415"
+                                    class="d-block w-100" alt="Ostras">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title ">Ostras</h5>
+                                <p class="card-text ">Sabor metálico, doce, salgado: como é cada ostra cultivada no Brasil.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://cdn.minhareceita.com.br/2021/08/20210726_lombo_de_bacalhau_a_portuguesa_master-2.jpg" class="d-block w-100" alt="Lombo de bacalhau">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Lombo de bacalhau</h5>
+                                <p class="card-text">Tem um sabor inconfundível e sublime, mas suave.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://www.sabornamesa.com.br/media/k2/items/cache/21c0b136eda26819b9d8cbf527d72a10_XL.jpg" class="d-block w-100" alt="Tentáculos de polvo">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tentáculos de polvo</h5>
+                                <p class="card-text">Salgadamente marinho, com longínquas e sutis doçuras.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://marettimo.com.br/blog/wp-content/uploads/2022/01/20190306_vieira-maracuja.jpg" class="d-block w-100" alt="Vieiras importadas">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Vieiras importadas</h5>
+                                <p class="card-text">Seu sabor delicado, “de mar”, lembra o gosto da carne de lagosta quando cozida no vapor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://marettimo.com.br/blog/wp-content/uploads/2021/03/camaraopaulista-1040x574.jpg" class="d-block w-100" alt="Camarão do alto mar">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Camarão do alto mar</h5>
+                                <p class="card-text">Essa iguaria possui um sabor levemente adocicado e pode ser preparada para compor um prato principal ou um acompanhamento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!------------- CARD 3------------------>
+            <h2>Cortes exóticos</h2>
+            <div id="carouselExampleControls3" class="carousel">
+
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/RJJ4QYJCJBK7BH5PRBMUI72VGM.jpg"
+                                    class="d-block w-100" alt="Cortes de jacaré">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title ">Cortes de jacaré</h5>
+                                <p class="card-text ">Uma carne suave, com textura parecida com peito de frango e sabor similar ao do peixe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://blogdochurrasco.files.wordpress.com/2010/03/javali-08.jpg" class="d-block w-100" alt="Picanha de javali">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Picanha de javali</h5>
+                                <p class="card-text">Lembra a carne bovina. A carne "encolhe" muito pouco ao ser cozida, ela tem sabor peculiar da carne de caça, é natural e menos gordurosa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://omunicipio.com.br/wp-content/uploads/2016/06/carne-de-r%C3%A3-1280x720.jpg" class="d-block w-100" alt="Rã inteira">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Rã inteira</h5>
+                                <p class="card-text">Com gosto semelhante ao frango, a carne de rã tem pouca gordura, bastante proteína e mais cálcio que o leite.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://static.wixstatic.com/media/d35ee1_a51656b336134cd7a3f8cd54c38f2b92~mv2.jpg/v1/fill/w_360,h_233,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/carne%20codorna2.jpg" class="d-block w-100" alt="Codornas de raça europeia">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Codornas de raça europeia</h5>
+                                <p class="card-text">A codorna possui um gosto mais suave e sua carne é mais macia, desmancha com mais facilidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="https://informaciongastronomica.com/wp-content/uploads/2021/04/Captura-de-pantalla-2021-04-19-a-las-20.15.07-1024x592.png" class="d-block w-100" alt="Carne de avestrus">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Carnes de avestruz</h5>
+                                <p class="card-text">Lembra a carne bovina, levemente adocicada e, por conter alto nível de ferro em sua composição, deixa um gosto terroso no paladar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </section>
+
+        <section class="contato" id="faleconosco">
+            <h2>Fale conosco</h2>
+            <form class="form">
+                <label for="nome"><strong>Seu nome completo</strong></label>
+                <input type="text" id="nome" name="nome" placeholder="João Silva">
+                <label for="nome">Insira seu nome e sobrenome.</label>
+                <label for="email"><strong>Seu e-mail</strong></label>
+                <input type="email" id="email" name="email" placeholder="joaosilva@email.com">
+                <label for="email">Digite um endereço de e-mail válido.</label>
+                <label for="telefone"><strong>Seu telefone</strong></label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(99) 9 9999-9999">
+                <label for="telefone">Digite um número de telefone válido.</label>
+                <label for="mensagem"><strong>Sua mensagem</strong></label>
+                <textarea name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Escreva aqui a sua dúvida."></textarea>
+                <input class="send" type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section class="local" id="localizacao">
+            <div class="iframe">
+                <h2>Localização</h2>
+                <p>Rua Voluntários da Pátria, 340 loja F - Botafogo - Rio de Janeiro - RJ</p>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.881417831474!2d-43.193806200000004!3d-22.9545939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe098bdb6fb%3A0xc40436dcdc0bff67!2sR.%20Volunt%C3%A1rios%20da%20P%C3%A1tria%2C%20340%20F%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022270-010!5e0!3m2!1spt-BR!2sbr!4v1679867010725!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <footer id="contato" class="text-white pt-5 pb-4">
+
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-x1-2 mx-auto mt-3">
+                    <br>
+                    <img src="Frame2.svg" width="80" alt="logo da empresa">
+                    <br><br>
+                    <p>All rights reserved, 2023</p>
+
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-x1-2 mx-auto mt-3">
+                    <h5 class="mb-4 font-weight-bold text-warning" id="contato">Contato</h5>
+                    <a href="tel:02125277125" class="text-white" style="text-decoration: none;">(21) 2527-7125</a><br><br>
+                    <a href="https://api.whatsapp.com/send?phone=55021972130412&text=Ol%C3%A1,%20sou%20um%20cliente%20e%20gostaria%20de%20falar%20com%20voc%C3%AAs!" target="_blank" class="text-white" style="text-decoration: none;">(21) 9721-30412 <img src="whatsapp.png" alt="whatsapp logo" width="20" style="margin: 5px; margin-bottom: 10px;"> </a><br><br>
+                    <a href="tel:021999084435" class="text-white" style="text-decoration: none;">(21) 99908-4435</a><br><br>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-x1-2 mx-auto mt-3">
+                    <h5 class="mb-4 font-weight-bold text-warning" id="contato">Funcionamento</h5>
+                    <p>Segunda à sexta das 7:00hs às 19:00</p>
+                    <br>
+                    <p>Sábados das 7:00 às 15:00hs</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
